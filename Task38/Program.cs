@@ -2,8 +2,6 @@
 // Найдите разницу между максимальным и минимальным элементом 
 // массива
 
-//Random rand = new Random();
-//Console.WriteLine(Math.Round(rand.Next(0,100) + rand.NextDouble(),4));
 
  double [] FillArray(int size, int leftRange, int rightRange)
  {
