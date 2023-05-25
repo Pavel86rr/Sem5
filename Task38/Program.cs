@@ -37,20 +37,3 @@ RrintArray(array);
 Console.WriteLine($"Максимальное значение элемента массива равно: {max}");
 Console.WriteLine($"Минимальное значение элемента массива равно: {min}");
 Console.WriteLine($"Разница между максимальным и минимальным элементом массива равна: {Math.Round((max-min),3)}");
-
-
-
-
-//  double[] GetRandomArray(int size, int minValue, int maxValue)
-// {
-//     double[] result = new double[size];
-//     var rand = new Random();
-//     for(int i = 0; i < size; i++)
-//     {
-//         result[i] = rand.Next(minValue, maxValue)+rand.NextDouble();
-//     }
-
-//     return result;
-// }
-//  double[] array = GetRandomArray(4, 0, 100);
-// Console.WriteLine($"[{String.Join(", ", array)}]");
